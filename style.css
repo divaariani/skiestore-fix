@@ -116,18 +116,21 @@ main .content .content-description button:hover {
 main .content .content-image {
     flex: 1;
     display: flex;
+    position: relative;
 }
 
 main .content .content-image img {
     width: 300px;
     min-width: 250px;
     margin: auto;
+    z-index: 0;
 }
 
 main aside {
     position: fixed;
     inset-block: 0;
     inset-inline-end: 0;
+    z-index: 1;
 }
 
 main aside .social-media {
